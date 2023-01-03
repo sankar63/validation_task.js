@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@700&display=swap');
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.background{
+    background-color: rgb(239, 242, 245);
+}
+.content{
+    background-color:#fff;
+    box-shadow:  0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);;
+    border-radius: 3px;
+    text-align: center;
+    min-height: 460px; 
+    width: 400px; 
+    border-radius: 10px;
+    
+}
+.heading{
+    margin: 25px 0;
+}
+.validation{
+    padding: 19px;
+    font-size: 2rem;
+    font-weight: 500;
+    color:  rgb(72, 90, 124);
+
+}
+.validation{
+    margin-left: 5px;
+    margin: auto;
+    padding:3% ;
+}
+.user{
+    margin: 30px 20px;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+}
+.user label{
+    padding: 10px 0 5px 40px;
+    font-size:1.2rem ;
+    align-self: flex-start;
+}
+.user input{
+    height: 100%;
+    margin: 0 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(242, 242, 242);
+    width: 80%;
+    outline: none;
+    padding-left: 10px;
+}
+
+.user input:focus{
+    border-bottom: 2px solid rgb(93, 93, 249);
+}
+
+ .click{
+    padding: 10px;
+    width: 150px;
+    margin:0 auto ;
+    margin-top:5px ;
+    
+}
+.click {
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(30, 106, 247);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+    
+}
+.click:hover{
+    background-color: rgb(93, 146, 246);
+  
+}
+.value{
+    font-style:initial;
+   color: rgb(229, 103, 58);
+    font-weight: 400;
+    
+}
+
